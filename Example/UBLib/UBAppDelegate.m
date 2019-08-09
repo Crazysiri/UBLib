@@ -8,10 +8,17 @@
 
 #import "UBAppDelegate.h"
 
+#import <UBEngine.h>
+
 @implementation UBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [UBEngine log];
+    
+    [UBEngine callPublicLibrary];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }

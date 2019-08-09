@@ -1,0 +1,6 @@
+framework module UBLib {
+  umbrella header "UBLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0848DF7F5906CE7A4988E564 /* Pods-UBLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-UBLib_Example/Pods-UBLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		41DF770985114710745C704B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		41DF770985114710745C704B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		49D8AE49C1B460F80B03A593 /* Pods_UBLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* UBLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77DC5573B44235C6DE151B6D /* UBLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UBLib.podspec; path = ../UBLib.podspec; sourceTree = "<group>"; };
+		77DC5573B44235C6DE151B6D /* UBLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UBLib.podspec; path = ../UBLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99CFB07DF634D19F8F192089 /* Pods-UBLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UBLib_Tests/Pods-UBLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B124D799D9C31618831B6972 /* Pods-UBLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-UBLib_Tests/Pods-UBLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6DC341C2B9BB52A8AE13190 /* Pods_UBLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82F1AFD686BAE62444AB1B8 /* Pods-UBLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBLib_Example.release.xcconfig"; path = "Target Support Files/Pods-UBLib_Example/Pods-UBLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E960CE52D6CDA17CB7E2C225 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E960CE52D6CDA17CB7E2C225 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				99CFB07DF634D19F8F192089 /* Pods-UBLib_Tests.debug.xcconfig */,
 				B124D799D9C31618831B6972 /* Pods-UBLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -302,10 +301,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UBLib_Example/Pods-UBLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/UBLib/UBLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UBLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
