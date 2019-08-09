@@ -302,12 +302,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UBLib_Example/Pods-UBLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/LTCaptureKit/LTCaptureKit.framework",
 				"${BUILT_PRODUCTS_DIR}/UBLib/UBLib.framework",
+				"${BUILT_PRODUCTS_DIR}/UBWeakTimer/UBWeakTimer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTCaptureKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UBLib.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UBWeakTimer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

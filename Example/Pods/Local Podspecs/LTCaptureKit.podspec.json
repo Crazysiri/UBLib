@@ -1,0 +1,64 @@
+{
+  "name": "LTCaptureKit",
+  "version": "0.0.6",
+  "summary": "音视频采集kit",
+  "description": "音视频采集：基于AVFoundation等库实现",
+  "homepage": "https://gitee.com/ppz_bj/LTCaptureKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "James": "511121933@qq,com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitee.com/ppz_bj/LTCaptureKit.git",
+    "tag": "0.0.6"
+  },
+  "source_files": "LTCaptureKit/*.{h,m}",
+  "dependencies": {
+    "UBWeakTimer": [
+
+    ]
+  },
+  "frameworks": [
+    "AVFoundation",
+    "UIKit",
+    "Foundation",
+    "AssetsLibrary"
+  ],
+  "subspecs": [
+    {
+      "name": "motion",
+      "source_files": "LTCaptureKit/motion/*.{h,m}",
+      "frameworks": "CoreMotion"
+    },
+    {
+      "name": "Category",
+      "source_files": "LTCaptureKit/Category/*.{h,m}"
+    },
+    {
+      "name": "capture",
+      "source_files": "LTCaptureKit/capture/**/*.{h,m}"
+    },
+    {
+      "name": "writer",
+      "source_files": "LTCaptureKit/writer/**/*.{h,m}"
+    },
+    {
+      "name": "compress",
+      "source_files": "LTCaptureKit/compress/**/*.{h,m}"
+    },
+    {
+      "name": "player",
+      "source_files": "LTCaptureKit/player/**/*.{h,m}"
+    },
+    {
+      "name": "tool",
+      "source_files": "LTCaptureKit/tool/*.{h,m}"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/UBLib"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/LTCaptureKit" "${PODS_CONFIGURATION_BUILD_DIR}/UBLib" "${PODS_CONFIGURATION_BUILD_DIR}/UBWeakTimer"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UBLib/UBLib.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UBLib"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LTCaptureKit/LTCaptureKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UBLib/UBLib.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UBWeakTimer/UBWeakTimer.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "AVFoundation" -framework "AssetsLibrary" -framework "CoreGraphics" -framework "CoreMotion" -framework "Foundation" -framework "LTCaptureKit" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UBLib" -framework "UBWeakTimer" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

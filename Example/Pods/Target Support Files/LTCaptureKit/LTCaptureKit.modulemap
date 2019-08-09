@@ -1,0 +1,6 @@
+framework module LTCaptureKit {
+  umbrella header "LTCaptureKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

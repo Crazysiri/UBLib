@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://gitee.com/ppz_bj/LTCaptureKit.git'
+#source 'https://gitee.com/ppz_bj/LTCaptureKit.git'
 
 use_frameworks!
 
@@ -7,7 +7,7 @@ platform :ios, '8.0'
 
 target 'UBLib_Example' do
   pod 'UBLib', :path => '../'
-
+  pod 'LTCaptureKit',:git => 'https://gitee.com/ppz_bj/LTCaptureKit.git'
   target 'UBLib_Tests' do
     inherit! :search_paths
 
