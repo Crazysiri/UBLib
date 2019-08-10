@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-#source 'https://gitee.com/ppz_bj/LTCaptureKit.git'
+source 'https://gitee.com/ppz_bj/LTCaptureKit.git'
 
 use_frameworks!
 

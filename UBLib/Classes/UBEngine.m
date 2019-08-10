@@ -9,13 +9,16 @@
 
 #import <AFNetworking/AFNetworking.h>
 
+#import <LTCaptureKit/LTCameraKit.h>
+
 @implementation UBEngine
 + (void)log {
     NSLog(@"log");
 }
 
 + (void)callPrivateLibrary {
-    
+    [UIImage imageFromCMSampleBufferRef:NULL];
+    NSLog(@"callPrivateLibrary");
 }
 
 + (void)callPublicLibrary {
