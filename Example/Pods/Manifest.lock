@@ -39,7 +39,7 @@ PODS:
     - UBWeakTimer
   - UBLib (0.1.0):
     - AFNetworking
-    - LTCaptureKit
+    - LTCaptureKit (~> 0.0.6)
   - UBWeakTimer (1.0.0)
 
 DEPENDENCIES:
@@ -65,9 +65,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   LTCaptureKit: 6bcb44f349134f57495de0db453b701d1d89affc
-  UBLib: d7d3827f21e1ee3a5ef9bdfc8afa5c29e9f839c7
+  UBLib: 3180249a8bff8fb8705699906699db0ee671f672
   UBWeakTimer: 83272e5518024187ea72627696cca9038e68d9a4
 
-PODFILE CHECKSUM: a67445baa83afc4592fa71371d734f354b5b3feb
+PODFILE CHECKSUM: b05a78a84c759e57c2d413501eee5e23af3dd344
 
 COCOAPODS: 1.7.0.beta.1

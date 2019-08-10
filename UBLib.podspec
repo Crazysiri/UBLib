@@ -39,5 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
-  s.dependency 'LTCaptureKit'
+  s.dependency 'LTCaptureKit','~>0.0.6'
 end
+#pod package UBLib.podspec --force --no-mangle --spec-sources=https://gitee.com/ppz_bj/LTCaptureKit.git,https://github.com/CocoaPods/Specs.git
