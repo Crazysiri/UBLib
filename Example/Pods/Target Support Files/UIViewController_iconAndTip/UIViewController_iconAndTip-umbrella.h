@@ -10,3 +10,8 @@
 #endif
 #endif
 
+#import "UIViewController+iconAndTip.h"
+
+FOUNDATION_EXPORT double UIViewController_iconAndTipVersionNumber;
+FOUNDATION_EXPORT const unsigned char UIViewController_iconAndTipVersionString[];
+

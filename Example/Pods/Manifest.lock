@@ -14,60 +14,29 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - LTCaptureKit (0.0.6):
-    - LTCaptureKit/capture (= 0.0.6)
-    - LTCaptureKit/Category (= 0.0.6)
-    - LTCaptureKit/compress (= 0.0.6)
-    - LTCaptureKit/motion (= 0.0.6)
-    - LTCaptureKit/player (= 0.0.6)
-    - LTCaptureKit/tool (= 0.0.6)
-    - LTCaptureKit/writer (= 0.0.6)
-    - UBWeakTimer
-  - LTCaptureKit/capture (0.0.6):
-    - UBWeakTimer
-  - LTCaptureKit/Category (0.0.6):
-    - UBWeakTimer
-  - LTCaptureKit/compress (0.0.6):
-    - UBWeakTimer
-  - LTCaptureKit/motion (0.0.6):
-    - UBWeakTimer
-  - LTCaptureKit/player (0.0.6):
-    - UBWeakTimer
-  - LTCaptureKit/tool (0.0.6):
-    - UBWeakTimer
-  - LTCaptureKit/writer (0.0.6):
-    - UBWeakTimer
   - UBLib (0.1.0):
     - AFNetworking
-    - LTCaptureKit (~> 0.0.6)
-  - UBWeakTimer (1.0.0)
+    - UIViewController_iconAndTip
+  - UIViewController_iconAndTip (0.0.1)
 
 DEPENDENCIES:
-  - LTCaptureKit (from `https://gitee.com/ppz_bj/LTCaptureKit.git`)
   - UBLib (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - UBWeakTimer
+  https://github.com/Crazysiri/Specs.git:
+    - UIViewController_iconAndTip
 
 EXTERNAL SOURCES:
-  LTCaptureKit:
-    :git: https://gitee.com/ppz_bj/LTCaptureKit.git
   UBLib:
     :path: "../"
 
-CHECKOUT OPTIONS:
-  LTCaptureKit:
-    :commit: a1011bde0c44224cd6980f76900b095bb41557e7
-    :git: https://gitee.com/ppz_bj/LTCaptureKit.git
-
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LTCaptureKit: 6bcb44f349134f57495de0db453b701d1d89affc
-  UBLib: 3180249a8bff8fb8705699906699db0ee671f672
-  UBWeakTimer: 83272e5518024187ea72627696cca9038e68d9a4
+  UBLib: 341d3267f97cefd9fecc63f665b123f0db098840
+  UIViewController_iconAndTip: ac8315187eaed5a440bc9a573da59e10f228dba9
 
-PODFILE CHECKSUM: b05a78a84c759e57c2d413501eee5e23af3dd344
+PODFILE CHECKSUM: 63fa0ebf303c59dcef0bfdee7b72f3bb584b0546
 
 COCOAPODS: 1.7.0.beta.1

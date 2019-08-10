@@ -9,15 +9,15 @@
 
 #import <AFNetworking/AFNetworking.h>
 
-#import <LTCaptureKit/LTCameraKit.h>
-
+//#import <LTCaptureKit/LTCameraKit.h>
+#import <UIViewController_iconAndTip/UIViewController+iconAndTip.h>
 @implementation UBEngine
 + (void)log {
     NSLog(@"log");
 }
 
 + (void)callPrivateLibrary {
-    [UIImage imageFromCMSampleBufferRef:NULL];
+    [UIApplication.sharedApplication.delegate.window.rootViewController showTip:@"hello world"];
     NSLog(@"callPrivateLibrary");
 }
 

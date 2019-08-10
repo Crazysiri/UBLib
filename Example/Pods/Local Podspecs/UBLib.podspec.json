@@ -16,15 +16,15 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "UBLib/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
 
     ],
-    "LTCaptureKit": [
-      "~>0.0.6"
+    "UIViewController_iconAndTip": [
+
     ]
   }
 }

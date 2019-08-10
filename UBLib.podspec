@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Crazysiri/UBLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'UBLib/Classes/**/*'
   
@@ -39,6 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
-  s.dependency 'LTCaptureKit','~>0.0.6'
+  s.dependency 'UIViewController_iconAndTip'
 end
-#pod package UBLib.podspec --force --no-mangle --spec-sources=https://gitee.com/ppz_bj/LTCaptureKit.git,https://github.com/CocoaPods/Specs.git
+#pod package UBLib.podspec --force --no-mangle --spec-sources=https://github.com/Crazysiri/Specs.git,https://github.com/CocoaPods/Specs.git
