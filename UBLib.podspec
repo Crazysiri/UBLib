@@ -40,5 +40,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking'
   s.dependency 'UIViewController_iconAndTip'
+  s.dependency 'LenzAlbum'
+  s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
 end
 #pod package UBLib.podspec --force --no-mangle --spec-sources=https://github.com/Crazysiri/Specs.git,https://github.com/CocoaPods/Specs.git

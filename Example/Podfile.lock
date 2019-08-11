@@ -14,8 +14,26 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - UBLib (0.1.0):
+  - LenzAlbum (0.0.4):
+    - LenzAlbum/model (= 0.0.4)
+    - LenzAlbum/Tool (= 0.0.4)
+    - "LenzAlbum/图片浏览 (= 0.0.4)"
+    - "LenzAlbum/图片选择 (= 0.0.4)"
+  - LenzAlbum/model (0.0.4)
+  - LenzAlbum/Tool (0.0.4)
+  - "LenzAlbum/图片浏览 (0.0.4)":
+    - "LenzAlbum/图片浏览/Views (= 0.0.4)"
+  - "LenzAlbum/图片浏览/Views (0.0.4)"
+  - "LenzAlbum/图片选择 (0.0.4)"
+  - Masonry (1.1.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - UBLib (0.1.1):
     - AFNetworking
+    - LenzAlbum
+    - Masonry
+    - SDWebImage
     - UIViewController_iconAndTip
   - UIViewController_iconAndTip (0.0.1)
 
@@ -25,7 +43,10 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - Masonry
+    - SDWebImage
   https://github.com/Crazysiri/Specs.git:
+    - LenzAlbum
     - UIViewController_iconAndTip
 
 EXTERNAL SOURCES:
@@ -34,7 +55,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  UBLib: 341d3267f97cefd9fecc63f665b123f0db098840
+  LenzAlbum: d3d77c1db1fb1d1f397bf05d92b74beca5e3b87b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  UBLib: 680a047a305677e4f65c005ef2637aae7ac2ad22
   UIViewController_iconAndTip: ac8315187eaed5a440bc9a573da59e10f228dba9
 
 PODFILE CHECKSUM: 63fa0ebf303c59dcef0bfdee7b72f3bb584b0546
